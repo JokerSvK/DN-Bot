@@ -325,7 +325,7 @@
     "website": "/me Prosím navštivte naše webové stránky: %%LINK%%",
     "youtube": "/me [%%NAME%%] Dejte nám odběr na youtube: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
-    "prikazy": "/me Seznam DN příkazů: http://hudbajevsetko.justforum.net/t9-nase-prikazy",
+    "prikazy": "/me Seznam DN příkazů: https://github.com/JokerSvK/DN-Bot/blob/master/prikazy.md",
     
     "nouseralkohol": "/me Nevidím %%NAME%% v místnosti, takže si vyber někoho jinýho na panáka.",
     "givealkohol": "/me Pozvi někoho na sklenku přes !alkohol @jmeno.",
