@@ -241,7 +241,7 @@
         name: "DN-Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://github.com/JokerSvK/DN-Bot/blob/master/prikazy.md",
         chatLink: "https://rawgit.com/JokerSvK/DN-Bot/master/DNczech.json",
         chat: null,
         loadChat: loadChat,
