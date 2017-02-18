@@ -14,7 +14,7 @@ Hostitel & Zástupce Hostitele
 |!refresh | | Aktualizuje prohlížeč zapnutého bota. |
 |!reload | | Znovunačtení bota. |
 |!logout | | Odhlásí účet bota. |
-|!kill | | Vypne bota. |
+|!vypnout | | Vypne bota. |
 
 Manažér
 -------
