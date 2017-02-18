@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "TestUpdates",
+        version: "6.6.6",
         status: false,
         name: "DN-Bot",
         loggedInID: null,
@@ -254,7 +254,7 @@
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupVolume: 50, // 0-100
             startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
@@ -262,7 +262,7 @@
             cmdDeletion: true,
             maximumAfk: 5000,
             afkRemoval: false,
-            maximumDc: 60,
+            maximumDc: 120,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
