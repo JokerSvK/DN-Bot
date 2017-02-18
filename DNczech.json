@@ -379,5 +379,5 @@
     "givezvire": "/me Příkazem !zvire @jmeno řekneš o někom, jaký je zvíře.",
     "selfzvire": "/me Říkat o sobě, jaké jsi zvíře zavání egem. Haah, to jsem tě dostal %%NAME%% ",
     "nouserzvire": "/me Nevidím %%NAME%% v místnosti, takže asi zdrhl/a opice.",
-    "zvire": "/me @%%NAMETO%%, @%%NAMEFROM%% %%ANIMAL%%",
+    "zvire": "/me @%%NAMETO%%, @%%NAMEFROM%% %%ANIMAL%%"
 }
