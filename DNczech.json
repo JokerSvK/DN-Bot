@@ -332,7 +332,7 @@
     "selfalkohol": "/me @%%NAME%% je taková labuť, že lije ten alkáč rovnou do sebe, než aby nabídl/a ostatním.",
     "alkohol": "/me @%%NAMETO%%, %%NAMEFROM%% %%ALKOHOLY%%",
 
-    "afk": "/me %%NAME%% jde AFK!",
+    "afk": "/me %%NAME%% Išiel / išla na nejakú dobu preč od PC. <3",
     
     "givebitch": "/me Příkazem !bitch @jmeno někoho pasuješ na osobní bitch.",
     "selfbitch": "/me %%NAME%%, přijde ti normální, dělat bitch sám/a sobě?",
@@ -374,7 +374,7 @@
     "nousersklep": "/me Nevidím %%NAME%% v místnosti, takže zamkni do sklepa někoho jinýho.",
     "sklep": "/me @%%NAMETO%%, @%%NAMEFROM%% %%SKLEPOVKY%%",
 
-    "zpet": "/me %%NAME%% se vrátil/a zpět!",
+    "zpet": "/me %%NAME%% se vrátil/a zpět k PC. <3",
 
     "givezvire": "/me Příkazem !zvire @jmeno řekneš o někom, jaký je zvíře.",
     "selfzvire": "/me Říkat o sobě, jaké jsi zvíře zavání egem. Haah, to jsem tě dostal %%NAME%% ",
