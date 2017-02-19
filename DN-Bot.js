@@ -257,7 +257,7 @@
             startupVolume: 50, // 0-100
             startupEmoji: true, // true or false
             autowoot: true,
-            autoskip: false,
+            autoskip: true,
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 5000,
@@ -3953,7 +3953,7 @@ sklepCommand: {
             },
 
             websiteCommand: {
-                command: 'website',
+                command: 'web',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
