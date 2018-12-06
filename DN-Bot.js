@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/JokerSvK/DN-Bot/master/DNczech.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/JokerSvK/DN-Bot/DNczech.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -240,9 +240,9 @@
         status: false,
         name: "DN-Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/basicBot/source/basicBot.js",
         cmdLink: "https://github.com/JokerSvK/DN-Bot/blob/master/prikazy.md",
-        chatLink: "https://rawgit.com/JokerSvK/DN-Bot/master/DNczech.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/JokerSvK/DN-Bot/DNczech.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,8 +250,8 @@
         settings: {
             botName: "DN-Bot",
             language: "czech",
-            chatLink: "https://rawgit.com/JokerSvK/DN-Bot/master/DNczech.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://cdn.jsdelivr.net/gh/JokerSvK/DN-Bot/DNczech.json",
+            scriptLink: "https://cdn.jsdelivr.net/gh/basicBot/source/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
@@ -309,9 +309,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://cdn.jsdelivr.net/gh/basicBot/custom/blacklists/NSFWlist.json",
+                OP: "https://cdn.jsdelivr.net/gh/basicBot/custom/blacklists/OPlist.json",
+                BANNED: "https://cdn.jsdelivr.net/gh/basicBot/custom/blacklists/BANNEDlist.json"
             }
         },
         room: {
@@ -2708,7 +2708,7 @@ koupitCommand: {
                         if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentlang, {language: basicBot.settings.language}));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
+                        $.get("https://cdn.jsdelivr.net/gh/basicBot/source/lang/langIndex.json", function (json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === "undefined") {
